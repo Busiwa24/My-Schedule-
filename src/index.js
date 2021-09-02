@@ -14,7 +14,7 @@ const taskList = [
     id: 1,
   },
   {
-    description: 'Start Microverse classes at 8:00 am, 
+    description: 'Start Microverse coursework at 8:00 am, 
     completed: false,
     id: 2,
   },
@@ -24,12 +24,12 @@ const displayTasks = () => {
   allTasks.innerHTML = '';
   for (let i = 0; i < taskList.length; i += 1) {
     const each = taskList[i];
-    const list = `<div class="eachTask">
+    const list = `<div class="everyTask">
       <div class="group-list">
       <input type="checkbox" class="box" id="list-box" name="list-box">
-        <p class="task-name">${each.description}</p>
+        <p class="task-description">${each.description}</p>
       </div> 
-      <button class="menu-icon" id="${each.id}"><i class="fas fa-ellipsis-v"></i></button>
+      <button class="nav-icon" id="${each.id}"><i class="fas fa-ellipsis-v"></i></button>
     </div>
     <hr>`;
     allTasks.innerHTML += list;

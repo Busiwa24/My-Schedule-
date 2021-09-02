@@ -6,7 +6,7 @@ body {
   background-color: grey;
 }
 
-.container {
+.full-content{
   width: 40%;
   margin: 5%  auto;
   background-color: white;
@@ -19,7 +19,7 @@ body {
   margin: auto;
 }
 
-.input-form {
+.input-details {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
@@ -51,22 +51,22 @@ body {
   border-bottom-right-radius: 9%;
 }
 
-.container .heading-box {
+.container .header-item {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
 }
 
-.heading-box .container-heading {
+.header-item .container-heading {
   font-size: 25px;
   padding: 0 10px;
 }
 
-.heading-box i {
+.header-item i {
   padding: 31px 16px;
 }
 
-.eachTask {
+.everyTask {
   display: flex;
   justify-content: space-between;
 }
@@ -76,11 +76,11 @@ body {
   align-items: center;
 }
 
-.menu-icon {
+.nav-icon {
   background: white;
   border: none;
 }
 
-.task-name {
+.task-description {
   padding: 0 10px;
 }
