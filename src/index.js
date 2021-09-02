@@ -9,7 +9,7 @@ const taskList = [
     id: 0,
   },
   {
-    description: 'Go for a jog  at 6am',
+    description: 'Go for a jog at 6am',
     completed: false,
     id: 1,
   },
