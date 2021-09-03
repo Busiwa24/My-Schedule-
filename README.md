@@ -1,4 +1,4 @@
-# To-Do-List
+# To-Do-List or Schedule
 
 In this project, I build a simple HTML list of To Do tasks.This simple web page is built using webpack and served by a webpack dev server.
 
@@ -15,10 +15,11 @@ In this project, I build a simple HTML list of To Do tasks.This simple web page 
 5. Git
 6. GitHub
 7. VS Code
+8. webpack 
 
 ## Live Demo
 
-[Live Demo Link](https://donard97.github.io/To-Do-List/)
+[Live Demo Link] https://busiwa24.github.io/My-Schedule-/
 
 ### Getting Started 
 
