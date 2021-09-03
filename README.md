@@ -24,7 +24,7 @@ In this project, I build a simple HTML list of To Do tasks.This simple web page 
 
 To get a local copy up and running follow these simple example steps.
 
-Clone the repo with git clone https://github.com/Donard97/To-Do-List
+Clone the repo with git clone https://github.com/Busiwa24/My-Schedule-.git
 
 Open index.html using npm start .
 
