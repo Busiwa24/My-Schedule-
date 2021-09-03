@@ -6,7 +6,7 @@ body {
   background-color: grey;
 }
 
-.full-content{
+.full-content {
   width: 40%;
   margin: 5%  auto;
   background-color: white;
@@ -51,15 +51,15 @@ body {
   border-bottom-right-radius: 9%;
 }
 
+.header-item {
+  font-size: 25px;
+  padding: 0 10px;
+}
+
 .full-content .header-item {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
-}
-
-.header-item {
-  font-size: 25px;
-  padding: 0 10px;
 }
 
 .header-item .content-box: {
