@@ -38,7 +38,7 @@ body {
   font-size: 20px;
 }
 
-.btn-completed {
+.complete-button {
   width: 100%;
   border: none;
   font-size: 20px;
@@ -51,18 +51,18 @@ body {
   border-bottom-right-radius: 9%;
 }
 
-.container .header-item {
+.full-content .header-item {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
 }
 
-.header-item .container-heading {
+.header-item {
   font-size: 25px;
   padding: 0 10px;
 }
 
-.header-item i {
+.header-item .content-box: {
   padding: 31px 16px;
 }
 
