@@ -1,7 +1,7 @@
-# To-Do-List
+# My Schedule
 
 In this project, I build a simple HTML list of To Do tasks.This simple web page is built using webpack and served by a webpack dev server.
-![image](https://user-images.githubusercontent.com/74506933/130815602-2ccfc959-bf96-4c83-9b79-92925ba57a20.png)
+)
 
 ## Built With
 
@@ -14,23 +14,25 @@ In this project, I build a simple HTML list of To Do tasks.This simple web page 
 5. Git
 6. GitHub
 7. VS Code
+8.webpack
 
 ## Live Demo
 
-[Live Demo Link](https://donard97.github.io/To-Do-List/)
+[Live Demo Link](https://busiwa24.github.io/My-Schedule-/dist)
 
 ### Getting Started 
 
 To get a local copy up and running follow these simple example steps.
 
-Clone the repo with git clone https://github.com/Donard97/To-Do-List
+Clone the repo with git clone https://github.com/Busiwa24/My-Schedule-.git
 
 Open index.html using npm start .
 
-## Author 
-Github : [@Donard97](https://github.com/Donard97) <br>
-Twitter: [@donardgolaj](https://twitter.com/donardgolaj) <br>
-LinkdIn : [@donard-golaj](https://www.linkedin.com/in/donard-golaj/) <br>
+## Author
+GitHub: (https://github.com/Busiwa24) 
+Twitter: (https://twitter.com/busiwaliuma)
+ LinkedIn: (https://www.linkedin.com/in/busiwa-liuma-28385b80/> 
+
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
@@ -40,5 +42,3 @@ Feel free to check the issues page.
 ## Show your support
 Give a ⭐️ if you like this project!
 
-📝 License
-This project is MIT licensed.
