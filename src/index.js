@@ -6,17 +6,17 @@ const allTasks = document.getElementById('all-tasks');
 // eslint-disable-next-line prefer-const
 let taskList = [
   {
-    description: 'Get up at 8 am',
+    description: 'Wake up early at 5.30am',
     completed: false,
     id: 0,
   },
   {
-    description: 'Start working at 9 am',
+    description: 'Go jogging at 6am',
     completed: false,
     id: 1,
   },
   {
-    description: 'Drink coffe at 9:30',
+    description: 'Start Microverse coursework at 8am',
     completed: false,
     id: 2,
   },
