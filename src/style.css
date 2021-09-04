@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Tahoma', sans-serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
-  background-color: darkgrey;
+  background-color: #d5cdcd;
 }
 
 .container {
@@ -52,18 +52,18 @@ body {
   height: 80px;
 }
 
-.container .header-item {
+.container .heading-box {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
 }
 
-.header-item .container-heading {
+.heading-box .container-heading {
   font-size: 25px;
   padding: 0 10px;
 }
 
-.header-item i {
+.heading-box i {
   padding: 31px 16px;
 }
 
@@ -91,4 +91,15 @@ body {
 .group-list .form-label {
   font-size: 20px;
   padding-left: 8px;
+  border: none;
+  width: 30rem;
+}
+
+.group-list .form-label:focus-visible {
+  outline: none;
+}
+
+.btn-completed:hover {
+  background: cornflowerblue;
+  color: white;
 }
