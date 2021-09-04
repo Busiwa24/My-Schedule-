@@ -1,16 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Tahoma', sans-serif;
   letter-spacing: 1px;
-  background-color: grey;
+  background-color: darkgrey;
 }
 
 .full-content {
   width: 40%;
   margin: 5%  auto;
   background-color: white;
-  box-shadow: rgba(255, 255, 255, 0.836) 0 8px 24px;
+  box-shadow: rgba(75, 71, 71, 0.836) 0 8px 24px;
   border-radius: 2%;
 }
 
@@ -19,7 +19,7 @@ body {
   margin: auto;
 }
 
-.input-details {
+.input-form {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
@@ -27,7 +27,7 @@ body {
 }
 
 .input-form .input-task {
-  border: none;
+  border: none !important;
   font-size: 18px;
   outline: none;
 }
@@ -38,37 +38,40 @@ body {
   font-size: 20px;
 }
 
-.complete-button {
+.btn-completed {
   width: 100%;
   border: none;
   font-size: 20px;
   cursor: pointer;
-  color: grey;
+  color: #5b5a5a;
   background: #f2f2f2;
   line-height: 52px;
   margin-top: -8px;
   border-bottom-left-radius: 9%;
   border-bottom-right-radius: 9%;
+  height: 80px;
 }
 
-.header-item {
-  font-size: 25px;
-  padding: 0 10px;
-}
-
-.full-content .header-item {
+.container .header-item {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
 }
 
-.header-item .content-box: {
+.header-item .container-heading {
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.header-item i {
   padding: 31px 16px;
 }
 
-.everyTask {
+.eachTask {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 20px 10px;
 }
 
 .group-list {
@@ -76,11 +79,16 @@ body {
   align-items: center;
 }
 
-.nav-icon {
+.menu-icon {
   background: white;
   border: none;
 }
 
-.task-description {
+.task-name {
   padding: 0 10px;
+}
+
+.group-list .form-label {
+  font-size: 20px;
+  padding-left: 8px;
 }
