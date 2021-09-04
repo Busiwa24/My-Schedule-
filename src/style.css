@@ -1,12 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Gothic', sans-serif;
+  font-family: 'Tahoma', sans-serif;
   letter-spacing: 1px;
-  background-color: grey;
+  background-color: darkgrey;
 }
 
-.container {
+.container{
   width: 40%;
   margin: 5%  auto;
   background-color: white;
@@ -19,20 +19,20 @@ body {
   margin: auto;
 }
 
-.input-form {
+.content-box {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
   padding: 20px 10px;
 }
 
-.input-form .input-task {
+.input-box .input-task {
   border: none !important;
   font-size: 18px;
   outline: none;
 }
 
-.input-box .input-form .submit-task {
+.input-details .input-form .submit-task {
   background: white;
   border: none;
   font-size: 20px;
@@ -52,18 +52,18 @@ body {
   height: 80px;
 }
 
-.container .heading-box {
+.container .header-item {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
 }
 
-.heading-box .container-heading {
+.header-item .first-heading {
   font-size: 25px;
   padding: 0 10px;
 }
 
-.heading-box i {
+.header-item i {
   padding: 31px 16px;
 }
 
