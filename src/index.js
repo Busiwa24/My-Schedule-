@@ -1,38 +1,66 @@
-  import './style.css';
+import './style.css';
+import completedStatus from './script';
 
-  const allTasks = document.getElementById('all-tasks');
+const allTasks = document.getElementById('all-tasks');
 
-  const taskList = [
+// eslint-disable-next-line prefer-const
+let taskList = [
   {
-    description: 'Wake up early at 5.30 am',
+    description: 'Get up at 8 am',
     completed: false,
     id: 0,
   },
   {
-    description: 'Go for a jog at 6am',
+    description: 'Start working at 9 am',
     completed: false,
     id: 1,
   },
   {
-    description: 'Start Microverse coursework at 8:00 am', 
+    description: 'Drink coffe at 9:30',
     completed: false,
     id: 2,
   },
-  ];
+];
 
-  const displayTasks = () => {
+const displayTasks = () => {
+  if (localStorage.getItem('taskList') !== null) {
+    taskList = JSON.parse(localStorage.getItem('taskList'));
+  }
   allTasks.innerHTML = '';
   for (let i = 0; i < taskList.length; i += 1) {
     const each = taskList[i];
-    const list = <div class="everyTask">
- <div class= "group-list">
-   <input type="checkbox" class="box" id="list-box" name="list-box">
-  <p class="task-description">${each.description}</p>
-  </div> 
-      <button class="nav-icon" id="${each.id}"><i class="fas fa-ellipsis-v"></i></button>
-    </div>
-     <hr>;
-    allTasks.innerHTML += list;
+
+    const eachTask = document.createElement('div');
+    eachTask.className = 'eachTask';
+
+    const list = document.createElement('div');
+    list.className = 'group-list';
+
+    const input = document.createElement('input');
+    input.setAttribute('type', 'checkbox');
+    input.setAttribute('class', 'check-box');
+    input.id = each.id;
+    input.checked = each.completed;
+    // eslint-disable-next-line no-loop-func
+    input.addEventListener('change', () => {
+      completedStatus(each, taskList);
+    });
+
+    list.appendChild(input);
+
+    const label = document.createElement('label');
+    label.innerHTML = `${each.description}`;
+    label.className = 'form-label';
+    list.appendChild(label);
+
+    eachTask.appendChild(list);
+
+    const button = document.createElement('button');
+    button.innerHTML = '<i class="fas fa-ellipsis-v">';
+    button.className = 'menu-icon';
+    eachTask.appendChild(button);
+
+    allTasks.appendChild(eachTask);
   }
 };
 
