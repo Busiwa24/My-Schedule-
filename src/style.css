@@ -6,7 +6,7 @@ body {
   background-color: darkgrey;
 }
 
-.container{
+.full-content {
   width: 40%;
   margin: 5%  auto;
   background-color: white;
@@ -19,20 +19,20 @@ body {
   margin: auto;
 }
 
-.content-box {
+.input-form {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
   padding: 20px 10px;
 }
 
-.input-box .input-task {
+.input-form .input-task {
   border: none !important;
   font-size: 18px;
   outline: none;
 }
 
-.input-details .input-form .submit-task {
+.input-box .input-form .submit-task {
   background: white;
   border: none;
   font-size: 20px;
@@ -58,7 +58,7 @@ body {
   border-bottom: 1px solid black;
 }
 
-.header-item .first-heading {
+.header-item .container-heading {
   font-size: 25px;
   padding: 0 10px;
 }
