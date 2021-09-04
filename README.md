@@ -2,7 +2,6 @@
 
 In this project, I build a simple HTML list of To Do tasks.This simple web page is built using webpack and served by a webpack dev server.
 
-![image]schedule screenshot.png)
 
 ## Built With
 
